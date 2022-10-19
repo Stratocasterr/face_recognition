@@ -2,7 +2,7 @@ from face_detector import *
 from find_faces import *
 
 base_folder = "small_learn_images/"
-learn_images_path = r'C:\Users\kacpe\Desktop\face_recognition\small_learn_images/'
+learn_images_path = r'C:\Users\kacpe\Desktop\face_recognition\learn_images/'
 test_images_path = r'C:\Users\kacpe\Desktop\face_recognition\test_on_collage'
 
 
