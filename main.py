@@ -1,9 +1,9 @@
 from face_detector import *
 from find_faces import *
+from webcam import *
 
-base_folder = "small_learn_images/"
-learn_images_path = r'C:\Users\kacpe\Desktop\face_recognition\learn_images/'
-test_images_path = r'C:\Users\kacpe\Desktop\face_recognition\test_on_collage'
+learn_images_path = "friends_images/"
+test_images_path = "generated_collages/"
 
 
 #            ***Test if there are faces in your dataset images***
@@ -22,6 +22,7 @@ test_images_path = r'C:\Users\kacpe\Desktop\face_recognition\test_on_collage'
 
 #test_dataset()
 
-encode_known_people(base_folder, learn_images_path)
-
-find_people_on_images(test_images_path, True)
+#encode_known_people(learn_images_path)
+#recognize_people_on_webcam()
+#find_people_on_images(test_images_path, True)
+recognize_people_on_webcam()

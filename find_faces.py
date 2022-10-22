@@ -5,7 +5,7 @@ import os
 
 
 
-base_folder = "learn_images/"
+base_folder = "friends_images/"
 
 def test_dataset(dataset = "learn_images/", show_faces_on_images = False):
     if base_folder not in dataset: dataset = base_folder + dataset
