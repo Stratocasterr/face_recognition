@@ -7,11 +7,10 @@ from face_trainer import *
 
 
 
-
 project_files = os.listdir(PROJECT_DICT_PATH)
 
 
-                                                  # start training process
+                                                 
 
 
 if any([TRAINING_DATA_FILE_NAME not in project_files, NAMES_OF_PEOPLE_FILE_NAME not in project_files]) : face_recognize_trainer()
@@ -69,4 +68,3 @@ def recognize_people_on_webcam(run):
     video.release()
     cv.destroyAllWindows()
 
-recognize_people_on_webcam(RUN_CAMERA)
