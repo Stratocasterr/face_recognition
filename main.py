@@ -1,9 +1,8 @@
 from face_detector import *
 from find_faces import *
 from webcam import *
+from config import *
 
-learn_images_path = "friends_images/"
-test_images_path = "generated_collages/"
 
 
 #            ***Test if there are faces in your dataset images***
