@@ -60,9 +60,7 @@ def recognize_people_on_webcam(run):
                     FONT_COLOR, 
                     3, 
                     cv.LINE_AA)
-       
-
-        
+    
        
         if cv.waitKey(20) == ord('q'):
             running = False
