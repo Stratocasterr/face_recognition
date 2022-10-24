@@ -18,7 +18,7 @@ def face_recognize_trainer():
 
     training_images = r'C:/Users/kacpe/Visual Studio Projects/face_recognition/train_friends_images/'
     face_cascade = cv.CascadeClassifier(cv.data.haarcascades +'haarcascade_frontalface_default.xml')
-    face_recognizer = cv.face.LBPHFaceRecognizer_create()
+    face_recognizer = cv.face.LBPHFaceRecognizer_create()                                                       # create face recognizer
     current_id=0
     names_ids = {}
     ids = []
