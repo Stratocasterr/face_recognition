@@ -5,8 +5,8 @@ TRAINING_DATA_FILE_NAME = "trainner.yml"
 NAMES_OF_PEOPLE_FILE_NAME = "names_with_ids.json"
 PROJECT_DICT_PATH = "C:/Users/kacpe/Visual Studio Projects/face_recognition"
 
-CAM_WIDTH = 1280
-CAM_HEIGHT = 1024
+CAM_WIDTH = 640
+CAM_HEIGHT = 480
 
 RUN_CAMERA = True
 

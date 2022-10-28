@@ -1,6 +1,6 @@
 
 from find_faces import *
-from webcam import *
+
 from config import *
 from faces_detection import *
 

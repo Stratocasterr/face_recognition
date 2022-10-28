@@ -53,7 +53,7 @@ def face_recognize_trainer():
                         #cv.waitKey(0)                                                                         
                         gray_image_array = np.array(gray_image, "uint8")                                        # convert grayscale image to np array
                         faces = face_cascade.detectMultiScale(gray_image_array, 1.12, 5)                        # find human faces on img
-                        if len(faces) > 1 or len(faces) == 0: print(file," nie ma twarzy")
+                        if len(faces) > 1 or len(faces) == 0: print(file," nie ma twarzy/ kilka twarzy")
                     
                         
                         for (x, y, w, h) in faces:
