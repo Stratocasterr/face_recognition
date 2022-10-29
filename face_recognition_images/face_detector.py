@@ -80,7 +80,7 @@ def find_people_on_images(test_images_path, show_images = False):
 
                     correctness_index = (count_matches[final_choice] / correctness_index) *100                          # in % of how many times is similar with a few people's photos
                     similarity_index =  (count_matches[final_choice]  / names_of_known.count(final_choice)) *100        # in % of how many times is similar with only one person's photos
-                    #if similarity_index < 20: final_choice = "Unknown"
+                    if similarity_index < 20: final_choice = "Unknown"
 
                 else:
                     
