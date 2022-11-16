@@ -15,22 +15,23 @@ In this part you can recognize famous people on given image.
 #### install requirements
 1. openCV  ( I used 4.6.0.66)
 2. numpy (I used v1.23.3)
+
+
 #### Add your database.
 
---DATABASE DIRECTORY
-  
-                
-        --person1_name
-                --person2_1.img
-                --person2_2.img
-                --person2_3.img
-                ...
-                
-         --person2_name
-                --person3_1.img
-                --person3_2.img
-                --person3_3.img
-                ...
+YOUR_DATABASE_DIR
+              ├── person1_name
+              │   ├── person1_1.img
+              │   ├── person1_2.img
+              │   └── person1_3.img
+                  ...
+              ├── person1_name
+              │   ├── person1_1.img
+              │   ├── person1_2.img
+              │   └── person1_3.img
+                   ...
+              ...
+
             
 Put your database in "face_recognition_webcam" directory.
  
