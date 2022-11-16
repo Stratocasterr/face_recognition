@@ -62,9 +62,13 @@ To realize my project, I used OpenCV library. CascadeClassifier for detecting fa
 Recognizer is based on LBPH Algorithm. 
 One may read about it in [article](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b).
 
-## Demo with my friend Karol
+## Demo with my friends
 
 
 https://user-images.githubusercontent.com/101999487/202310284-edd94465-32c3-42af-b9b0-bf194eb813d4.mp4
+
+
+
+https://user-images.githubusercontent.com/101999487/202311117-0959ad3e-f9cb-4d1d-80fe-cf2e91483747.mp4
 
 
