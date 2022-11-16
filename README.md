@@ -18,25 +18,21 @@ In this part you can recognize famous people on given image.
 #### Add your database.
 
 --DATABASE DIRECTORY
-        --person1_name
-                --person1_1.img
-                --person1_2.img
-                --person1_3.img
-                ...
+  
                 
-        --person2_name
+        --person1_name
                 --person2_1.img
                 --person2_2.img
                 --person2_3.img
                 ...
                 
-         --person3_name
+         --person2_name
                 --person3_1.img
                 --person3_2.img
                 --person3_3.img
                 ...
             
- put your database here:
+Put your database in "face_recognition_webcam" directory.
  
 
  
