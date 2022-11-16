@@ -1,13 +1,5 @@
 # Face recognition with Python
 
-
-This program is a part of my Bachelor degree project
-
-
-## Recognize famous people faces on images
-In this part you can recognize famous people on given image. 
-
-
 ## Recognize faces in real-time using webcam
 Here one may recognize any person, only by uploading their photos to the database.
 ### How to use it?
