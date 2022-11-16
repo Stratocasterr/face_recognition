@@ -60,6 +60,6 @@ video = cv.VideoCapture(0)    // 0 is default value here
 To realize my project, I used OpenCV library. CascadeClassifier for detecting faces in image and LBPHFaceRecognizer to recognize specified person.
 
 Recognizer is based on LBPH Algorithm. 
-One may read about it [here](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b)
+One may read about it [article](https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b).
 
 I tested it with my friend Karol.
