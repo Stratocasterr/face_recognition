@@ -9,7 +9,7 @@ In this part you can recognize famous people on given image.
 
 
 ## Recognize faces in real-time using webcam
-
+Here one may recognize any person, only by uploading their photos to the database.
 ### How to use it?
 
 #### install requirements
@@ -19,6 +19,11 @@ In this part you can recognize famous people on given image.
 
 #### Add your database.
 
+Database directory should contain photos of people one want to recognize. These photos need to be taken from different angles, distances, using different lighting and background. The more images of each person one upload, the better face recognize results will be. One have to remember, that each person's directory should contain similar amount of images.
+
+database directory structure:
+
+```bash
 YOUR_DATABASE_DIR
               ├── person1_name
               │   ├── person1_1.img
@@ -31,6 +36,7 @@ YOUR_DATABASE_DIR
               │   └── person1_3.img
                    ...
               ...
+```
 
             
 Put your database in "face_recognition_webcam" directory.
