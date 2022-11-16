@@ -76,3 +76,4 @@ def face_recognize_trainer():
     face_recognizer.save("trainner.yml")
 
 
+face_recognize_trainer()

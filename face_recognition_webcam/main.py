@@ -1,6 +1,3 @@
-
-#from find_faces import *
-
 from config import *
 from faces_detection import *
 
